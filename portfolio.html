@@ -23,37 +23,122 @@
 	</head>
 
 	<body>
-		<header class="links">
-			<div class="flex-container container">
-				<nav class="nav-section">
-					<a class="logo-second-part" href="index.html"
-						><span class="logo">WEB</span>STUDIO</a
-					>
+		<div class="menu-container js-menu-container" id="mobile-menu">
+			<button class="menu-toggle js-close-menu">
+			  <svg
+				fill="currentColor"
+				viewBox="0 0 20 20"
+				xmlns="http://www.w3.org/2000/svg"
+				width="24"
+				height="24"
+			  >
+				<path
+				  fill-rule="evenodd"
+				  d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+				  clip-rule="evenodd"
+				></path>
+			  </svg>
+			</button>
+	  
+			<ul class="mobile-menu">
+			  <li class="header-mobile">
+				<a href="./" class="link active">Studio</a>
+			  </li>
+			  <li class="header-mobile">
+				<a class="link" href="portfolio.html">Portfolio</a>
+			  </li>
+			  <li class="header-mobile">
+				<a class="link" href="index.html">Contact</a></li>
+			</ul>
+	  
+			<ul class="contact-mobile">
+			  <li class="header-mobile">
+				<a class="link" href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
+			  </li>
+			  <li class="header-s">
+				<a class="link" href="mailto:info@devstudio.com"
+				  >info@devstudio.com</a
+				>
+			  </li>
+			</ul>
+			<ul class="social-links">
+			  <li class="social-link">
+				<a class="icon-bg" href=""
+				  ><svg class="svg-icon" width="16" height="16">
+					<use href="./images/icons.svg#icon-instagram-2"></use></svg
+				></a>
+			  </li>
+			  <li class="social-link">
+				<a class="icon-bg" href=""
+				  ><svg class="svg-icon" width="16" height="16">
+					<use href="./images/icons.svg#icon-twitter-1"></use></svg
+				></a>
+			  </li>
+			  <li class="social-link">
+				<a class="icon-bg" href=""
+				  ><svg class="svg-icon" width="16" height="16">
+					<use href="./images/icons.svg#icon-facebook-1"></use></svg
+				></a>
+			  </li>
+			  <li class="social-link">
+				<a class="icon-bg" href=""
+				  ><svg class="svg-icon" width="16" height="16">
+					<use href="./images/icons.svg#icon-linkedin-1"></use></svg
+				></a>
+			  </li>
+			</ul>
+		  </div>
+	  
+		  <!-- Mobile Menu -->
 
-					<ul class="nav-button">
-						<li><a class="link" href="index.html">Studio</a></li>
-						<li><a class="link active" href="portfolio.html">Portfolio</a></li>
-						<li><a class="link" href="index.html">Contact</a></li>
-					</ul>
-				</nav>
-
-				<address class="address-section">
-					<ul class="address-info">
-						<li>
-							<a class="link link-color" href="tel:+11(000)1111111"
-								>+11 (000) 111-11-11</a
-							>
-						</li>
-						<li>
-							<a class="link link-color" href="mailto:info@devstudio.com"
-								>info@devstudio.com</a
-							>
-						</li>
-					
-					</ul>
-				</address>
+	  <!-- Start desktop menu -->
+		  <header>
+			<div class="container">
+			  <a class="logo" href="./">Web<span class="accent">Studio</span> </a>
+			  <nav>
+				<ul class="nav-links">
+				  <li class="text-m-500">
+					<a class="link active" href="./">Studio</a>
+				  </li>
+				  <li class="text-m-500">
+					<a class="link" href="portfolio.html">Portfolio</a>
+				  </li>
+				  <li class="text-m-500">
+					<a class="link" href="./">Contact</a>
+				  </li>
+				</ul>
+			  </nav>
+			  <ul class="contact">
+				<li class="text-m">
+				  <a class="link" href="mailto:info@devstudio.com"
+					>info@devstudio.com</a
+				  >
+				</li>
+				<li class="text-m">
+				  <a class="link" href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
+				</li>
+			  </ul>
+			  <button
+				class="menu-toggle js-open-menu"
+				aria-expanded="false"
+				aria-controls="mobile-menu"
+			  >
+				<svg
+				  width="24"
+				  height="24"
+				  fill="currentColor"
+				  viewBox="0 0 20 20"
+				  xmlns="http://www.w3.org/2000/svg"
+				>
+				  <path
+					fill-rule="evenodd"
+					d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+					clip-rule="evenodd"
+				  ></path>
+				</svg>
+			  </button>
 			</div>
-		</header>
+		  </header>
 		<main>
 			<section class="portfolio-button portfolio-container">
 				<div class="container">
@@ -256,42 +341,41 @@
 				</div>
 			</section>
 		</main>
-		<footer class="footer-background">
+		<footer>
 			<div class="container">
+			  <div class="footer-container-wrapper">
 				<div class="footer-container-1">
-					<a class="logo-footer" href="index.html"
-						><span class="logo">WEB</span>STUDIO</a
-					>
-					<p class="footer-text">
-						Increase the flow of customers and sales for your business with
-						digital marketing & growth solutions.
-					</p>
+				  <a class="logo" href="./">Web<span class="accent">Studio</span></a>
+				  <p class="text-m footer-text">
+					Increase the flow of customers and sales for your business with
+					digital marketing & growth solutions.
+				  </p>
 				</div>
 
 				<div class="footer-container-2">
 					<p class="social-media-footer">Social media</p>
 					<ul class="social-links">
 						<li class="social-link">
-							<a class="icon-all" href="">
-								<svg class="svg-icon" width="24" height="24">
+							<a class="icon-bg" href="">
+								<svg width="24" height="24">
 									<use href="./images/icons.svg#icon-instagram-2"></use></svg
 							></a>
 						</li>
 						<li class="social-link">
-							<a class="icon-all" href="">
-								<svg class="svg-icon" width="24" height="24">
+							<a class="icon-bg" href="">
+								<svg width="24" height="24">
 									<use href="./images/icons.svg#icon-twitter-1"></use></svg
 							></a>
 						</li>
 						<li class="social-link">
-							<a class="icon-all" href="">
-								<svg class="svg-icon" width="24" height="24">
+							<a class="icon-bg" href="">
+								<svg width="24" height="24">
 									<use href="./images/icons.svg#icon-facebook-1"></use></svg
 							></a>
 						</li>
 						<li class="social-link">
-							<a class="icon-all" href="">
-								<svg class="svg-icon" width="24" height="24">
+							<a class="icon-bg" href="">
+								<svg width="24" height="24">
 									<use href="./images/icons.svg#icon-linkedin-1"></use></svg
 							></a>
 						</li>
@@ -300,21 +384,25 @@
 				<div class="footer-container-3">
 					<p class="text-m-500">Subscribe</p>
 					<form
-						name="newsletter-form"
-						autocomplete="on"
-						novalidate
-						class="newsletter-container">
-						<label>
-							<input placeholder="E-mail" class="email-input" type="email" />
-						</label>
-						<button class="submit-button text-btn" type="submit">
-							Subscribe
-							<svg class="svg-icon" width="24" height="24"> <use href="./images/icons.svg#icon-send">	</use>	</svg>
-						</button>
+					  name="newsletter-form"
+					  autocomplete="on"
+					  novalidate
+					  class="newsletter-container"
+					>
+					  <label>
+						<input placeholder="E-mail" class="email-input" type="email" />
+					  </label>
+					  <button class="submit-button text-btn" type="submit">
+						Subscribe
+						<svg width="24" height="24" class="icon icon-send">
+						  <use xlink:href="./images/icons.svg#icon-send"></use>
+						</svg>
+					  </button>
 					</form>
+				  </div>
 				</div>
-			</div>
-		</footer>
+			  </footer>
 		<script src="./js/modal.js"></script>
+		<script src="./js//mobile-menu.js"></script>
 	</body>
 </html>
