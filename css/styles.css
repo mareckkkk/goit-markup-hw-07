@@ -1224,7 +1224,7 @@ footer .text-m {
 }
 
 /* Portfolio */
-.filters {
+.menu {
 	list-style: none;
 	display: flex;
 	flex-wrap: wrap;
@@ -1235,7 +1235,7 @@ footer .text-m {
 	max-width: 320px;
 }
 @media screen and (min-width: 768px) {
-	.filters {
+	.menu {
 		list-style: none;
 		display: flex;
 		justify-content: center;
@@ -1245,7 +1245,7 @@ footer .text-m {
 		max-width: NONE;
 	}
 }
-.filters .filter-button {
+.menu .filter-button {
 	padding: 12px 24px;
 	color: var(--iris);
 	border-radius: 4px;
@@ -1255,8 +1255,8 @@ footer .text-m {
 		background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 		box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.filters .filter-button:hover,
-.filters .filter-button:focus {
+.menu .filter-button:hover,
+.menu .filter-button:focus {
 	color: var(--white);
 	background-color: var(--ocean);
 	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
